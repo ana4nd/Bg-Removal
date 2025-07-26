@@ -1,6 +1,6 @@
 import express from "express"
 
-import {clerkWebhooks, paymentRazorpay, userCredits} from "../controllers/user.controller.js";
+import {clerkWebhooks, userCredits} from "../controllers/user.controller.js";
 import authUser from "../middleware/auth.js";
 
 const router = express.Router();
